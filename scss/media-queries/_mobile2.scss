@@ -1,0 +1,46 @@
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    html {
+        scrollbar-width: none;
+    }
+
+    .title {
+        margin-top: 3.2rem;
+    }
+
+    .productItems {
+        margin: 3.2rem 0.4rem 3.2rem 0.4rem;
+
+        display: grid;
+
+        grid-template-areas: 
+        "producto1 producto2"
+        "producto3 producto4"
+        "producto5 producto6"
+        "producto7 producto8"
+        "producto9 producto10"
+        "producto11 producto12";
+
+        grid-template-columns: 50% 50%;
+
+        grid-template-rows: repeat(6, 40rem);
+
+        div {
+            margin: 0.4rem;
+
+            img {
+                height: 24rem;
+                width: 100%
+            }
+
+            h2 {
+                font-size: var(--text-base);
+                margin: 0.4rem 0; 
+            }
+
+            p {
+                font-size: var(--text-note);
+                margin: 0.4rem 0;
+            }
+        }
+    }
+}

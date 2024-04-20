@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
+@import url('https://fonts.cdnfonts.com/css/cheltenham-lt');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+html {
+    /* Escala tipografica */
+    font-size: 62.5%;
+
+    /* Familias tipograficas */
+    --font-1: 'Apercu Pro', sans-serif;
+    --font-2: 'Cheltenham LT', sans-serif;
+    --font-3: 'Nunito Sans', sans-serif;
+
+    /* Variables tipograficas */
+    --text-caption: 1.2rem;
+    --text-note: 1.4rem;
+    --text-base: 1.8rem;
+    --text-subheader: 2rem;
+    --text-title: 2.8rem;
+    --text-headline: 4.2rem;
+    --text-display: 8.8rem;
+    --text-jumbo: 14rem;
+
+    /* Colores */
+    --primary-1: #12141b;
+    --primary-2: #000000;
+
+    --secondary-1:  #abd5f5;
+    --secondary-2: #ffffff;
+    --secondary-3: #f7f7f7;
+
+    /* Estilos para el scrollbar */
+    scrollbar-width: none;
+}

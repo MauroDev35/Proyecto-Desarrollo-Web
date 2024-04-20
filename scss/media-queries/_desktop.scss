@@ -1,0 +1,32 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    html {
+        scrollbar-width: none;
+    }
+
+    .productItems {
+        margin: 5.2rem 4rem 5.2rem 4rem;
+
+        div {
+            margin: 0.8rem;
+
+            img {
+                height: 36rem;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: var(--text-base);
+                margin: 0.4rem 0;
+                
+                text-align: justify;
+            }
+
+            p {
+                font-size: var(--text-note);
+                margin: 0.4rem 0;
+
+                text-align: justify;
+            }
+        }
+    }
+}

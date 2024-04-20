@@ -1,0 +1,110 @@
+/* Estilos de la seccion de productos */
+.productItems {
+    div {
+        margin: 1.2rem 0.8rem;
+
+        img {
+            height: 40rem;
+            width: 32rem;
+        }
+
+        h2 {
+            font-size: var(--text-subheader);
+            font-weight: bold;
+
+            margin: 0.4rem 0 0 0;
+        }
+
+        p {
+            font-size: var(--text-note);
+
+            margin: 0.4rem 0 0 0;
+        }
+    }
+}
+
+/* Estilos pagina Ayuda */
+.helpCenter{
+    margin: 0 2rem 5.2rem 2rem;
+
+    p {
+        margin-top: 0.4rem;
+        text-align: justify;
+        font-family: var(--font-3);
+        font-size: var(--text-base);
+        font-weight: 400;
+        color: var(--primary-1);
+    }
+
+    ul {
+        margin-left: 2rem;
+
+        li {
+            margin-top: 0.4rem;
+            text-align: justify;
+            font-family: var(--font-3);
+            font-size: var(--text-base);
+            font-weight: 400;
+            color: var(--primary-1);
+        }
+    }
+}
+
+.title2 {
+    margin-top: 2rem;
+    font-family: var(--font-2);
+    font-size: var(--text-title);
+    color: var(--primary-1);
+}
+
+.subtitle {
+    margin-top: 1.6rem;
+    font-family: var(--font-3);
+    font-size: var(--text-subheader);
+    font-weight: 800;
+    color: var(--primary-1);
+}
+
+.tableSubtitle {
+    margin-top: 1.6rem;
+    text-align: center;
+    font-family: var(--font-3);
+    font-size: var(--text-subheader);
+    font-weight: 800;
+    color: var(--primary-1);
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 50%;
+    margin-top: 1.6rem;
+    border-collapse: collapse;
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    color: var(--primary-1);
+}
+
+th, td {
+    border: 0.1rem solid var(--primary-2);
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: var(--secondary-3);
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    margin-top: 2rem;
+}
