@@ -41,6 +41,33 @@ body {
   background-color: var(--secondary-1);
 }
 
+.back-navbar {
+  background-color: var(--primary-2);
+}
+
+.back-navbar:hover {
+  background-color: var(--secondary-2);
+}
+
+.navbar-brand {
+  font-size: var(--text-headline);
+  color: var(--secondary-1) !important;
+}
+
+.nav-link {
+  color: var(--secondary-1) !important;
+  font-size: var(--text-subheader);
+}
+
+.navbar-brand:hover {
+  color: var(--primary-1) !important;
+}
+
+.nav-link:hover {
+  font-weight: bolder;
+  color: var(--primary-1) !important;
+}
+
 footer {
   width: 100%;
   background-color: #000000;
