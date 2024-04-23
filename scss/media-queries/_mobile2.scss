@@ -3,6 +3,10 @@
         scrollbar-width: none;
     }
 
+    .navbar-brand {
+        font-size: var(--text-title);
+    }
+
     .title {
         margin-top: 3.2rem;
     }
