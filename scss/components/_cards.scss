@@ -1,0 +1,29 @@
+.productTitle {
+    font-family: var(--font-2);
+    font-size: var(--text-title);
+    text-align: center;
+
+    margin-top: 5.4rem;
+}
+
+.card {
+    width: auto;
+    border: 0;
+    margin: 5.4rem 1.6rem;
+
+    .title-product {
+        font-family: var(--font-2);
+        font-size: var(--text-subheader);
+        text-align: left;
+    }
+
+    .parragraph {
+        font-family: var(--font-3);
+        font-size: var(--text-base);
+        text-align: left;
+    }
+}
+
+.card-body {
+    background-color: var(--secondary-1);
+}
